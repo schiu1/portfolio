@@ -2,24 +2,44 @@
 <html>
 <title>Portfolio</title>
 <style>
-body{background-color: lightblue;}
+body{background-color: #EBECF0;}
 
-h1 {text-align: center;
-	font-family: verdana;
+#title {text-align: center;
+	font-family: arial;
 	font-size: 50px;}
 
-a {display: block;
+.button {
+	background-color: #EBECF0;
+	border: 2px solid #008CBA;
+	border-radius: 10px;
+	color: black;
+	padding: 10px 25px;
 	text-align: center;
-	font-family: arial;}
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	}
 
-p {text-align: center;
-	font-family: arial;}
+.button:hover {
+	background-color: #008CBA;
+	color: white;
+	}
+
+p {
+	font-family: arial;
+	margin-left: 200px;
+	margin-right: 200px;
+	}
 </style>
 
 <body>
-<h1>Stephen Chiu</h1>
-<p>hello world! Welcome to my website. Here will be a collection of coding projects I have done.</p>
-<a href="projects.html">My projects</a>
-
+<h1 id="title" style="margin-top: 200px">Stephen Chiu</h1>
+<p>hello world! Welcome to my website. Here will be a collection of coding projects I have done.
+<br><br>
+<a href="aboutMe.html" class="button">About Me</a><a href="projects.html" class="button">My projects</a>
+</p>
 </body>
 </html>

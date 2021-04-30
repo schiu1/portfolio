@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html>
 <style>
-body{background-color: lightblue;}
+body{background-color: #EBECF0;}
 
 #title {text-align: center;
 	font-family: arial;
 	font-size: 50px;}
 	
+.button {
+	background-color: #EBECF0;
+	border: 2px solid #008CBA;
+	border-radius: 10px;
+	color: black;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px; 
+	transition-duration: 0.4s;
+	cursor: pointer;
+	font-family: arial;
+	margin-left: 200px;
+	}
 
+.button:hover {
+	background-color: #008CBA;
+	color: white;
+	}
 
 p {
 	margin-left: 200px;
@@ -20,9 +40,11 @@ p {
 </style>
 <title>My Projects</title>
 <h1 id="title">My Projects</h1>
-<a href="index.html" style="margin:100px">Back</a>
+<a href="index.html" class="button" >Back</a>
 
 <p id="bGame"> <img src="btlGame.png" style="float:left; margin-right:10px;" width="400" height="400">
+<u>BattleGame</u>
+<br><br>
 When I was in high school, I played a Facebook game that was a turn based Role-Playing-Game (RPG) called Marvel Avengers Alliance.
 I enjoyed my time in that game and it made myself a fan of turn-based RPGs, so much that it inspired me to make my own game like one. 
 <br><br>
@@ -33,7 +55,9 @@ It has different weapons with attacks that are tied to each.
 Each enemy you defeat will increase your stats based on their strength.
 </p>
 
-<p><img src="moolah.png" style="float:left; margin-right:10px;"> 
+<p><img src="moolah.png" style="float:left; margin-right:10px;">
+<u>Moolah</u>
+<br><br> 
 In Summer of 2018, I was involved in a community or "guild" in the Massive-Multiplyer-Online-Roleplaying-Game (MMORPG) called Black Desert Online.
 A friend of mine in the community was talking to me about an issue involving keeping track of the member's contribution from an activity in the game called Sea Monster Hunting.
 Both of us came up with the idea of creating a bot for the social chatting program called Discord that can keep track of items gathered through user input commands.
