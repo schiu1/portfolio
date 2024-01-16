@@ -46,10 +46,20 @@ p {
 	margin-left: 200px;
 	margin-right: 200px;
 	font-size: 20px;
-	font-family: arial;}
+	font-family: arial;
+}
 
-#bGame{margin-bottom:200px;}
+#bGame{
+	margin-bottom: 300px;
+}
 
+#moolah{
+	margin-bottom: 400px;
+}
+
+#skarner{
+	margin-bottom: 700px;
+}
 </style>
 <title>My Projects</title>
 <div>
@@ -70,7 +80,7 @@ It has different weapons with attacks that are tied to each.
 Each enemy you defeat will increase your stats based on their strength.
 </p>
 
-<p><img src="moolah.png" style="float:left; margin-right:10px;">
+<p id="moolah"><img src="moolah.png" style="float:left; margin-right:10px;">
 <u>Moolah</u>
 <br><br> 
 In Summer of 2018, I was involved in a community or "guild" in the Massive-Multiplyer-Online-Roleplaying-Game (MMORPG) called Black Desert Online.
@@ -81,7 +91,36 @@ She provided the ideas of what the bot should behave like while I created the bo
 The bot is called Moolah and is coded in Python 3.6. It uses the Discord API to take in user input commands through the Discord chat.
 When the user sends the input through the Discord chat, the bot will take that info and send it to a Google Sheet using the Sheets API.
 The bot is able to Add/Subtract items, see a member's total contribution represented as a money amount, and give their items to other members.
+</p>
 
+<p id="skarner">
+	<img src="skarnerisms.png" style="float:left; margin-right:10px">
+	<u>Skarnerisms</u>
+	<br><br>
+	I have a friend that goes by the name of "Skarner" online. He says some rather "unique" things when we talk. 
+	The group of friends I talk to joked about recording the things that he says for the memories. 
+	But the Discord quote bot that we used to use was taken out of the server and potentially shut down. 
+	So, I had the idea to challenge myself to create a Discord quote bot with similar features that are used by many other bots. 
+	<br><br>
+	I call the bot Skarnerism as this is a bot to be filled with quotes from him only.
+	It operates with Discord commands from the user and interacts with an SQL database to store quotes and the date of recording.
+	When the list gets too long, it uses the Discord reaction function to add left and right arrow, using them as a way to scroll the list. 
+</p>
+
+<p>
+	<img src="notesApp.png" style="float: left; margin-right: 10px;">
+	<u>Notes Web App</u>
+	<br><br>
+	Web development was a form of programming that I struggled with, especially with the design of a webpage in HTML/CSS. 
+	So for a good portion of 2023 I took it upon myself to practice web development, using HTML/CSS/Javascript.
+	One of my self projects was a Notepad App that operates in the web browser. 
+	<br><br>
+	I am particularly proud of myself for this one due to how well the sticky notes look and the functions of the App.
+	Each note looks really close to how a sticky note would look like in real life.
+	Notes can be deleted, added, and edited.
+	At the top of each note shows the last date and time it was updated.
+	The list of notes would be order by last updated, and the order would change in real time.
+	Data is saved within Javascript session storage, recording things like the note contents and last time updated.
 </p>
 </html>
 
